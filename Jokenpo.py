@@ -1,4 +1,4 @@
-import time
+
 from random import *
 from emoji import *
 from time import *
@@ -8,27 +8,27 @@ def separador():
 
 def escolhaPedra():
     if escolhadopc == jogo[2]:
-        print(f"Voce escolheu PEDRA e eu escolhi {escolhadopc} ou seja VOCE ME VENCEU SEU CORNO ")
+        print(f"Voce escolheu PEDRA e eu escolhi {escolhadopc} VOCE GANHOU!!!  ")
     elif escolhadopc == jogo[0]:
-        print(f"Voce escolheu PEDRA e eu escolhi {escolhadopc} EMPATAMO DESGRACA")
+        print(f"Voce escolheu PEDRA e eu escolhi {escolhadopc} EMPATAMOS")
     else:
-        print(f"Voce escolheu PEDRA e eu escolhi {escolhadopc} PERDEU SEU TROUXA")
+        print(f"Voce escolheu PEDRA e eu escolhi {escolhadopc} EU GANHEI!!!!!")
 
 def escolhaPapel():
     if escolhadopc == jogo[0]:
-        print(f"Voce escolheu {jogo[1]} e eu escolhi {escolhadopc} ou seja VOCE ME VENCEU SEU CORNO ")
+        print(f"Voce escolheu {jogo[1]} e eu escolhi {escolhadopc} VOCE GANHOU!!!")
     elif escolhadopc == jogo[1]:
-        print(f"Voce escolheu {jogo[1]} e eu escolhi {escolhadopc} EMPATAMO DESGRACA")
+        print(f"Voce escolheu {jogo[1]} e eu escolhi {escolhadopc} EMPATAMOS")
     else:
-        print(f"Voce escolheu {jogo[1]} e eu escolhi {escolhadopc} PERDEU SEU TROUXA")
+        print(f"Voce escolheu {jogo[1]} e eu escolhi {escolhadopc} EU GANHEI!!!!!")
 
 def escolhatesoura():
     if escolhadopc == jogo[1]:
-        print(f"Voce escolheu {jogo[2]} e eu escolhi {escolhadopc} ou seja VOCE ME VENCEU SEU CORNO ")
+        print(f"Voce escolheu {jogo[2]} e eu escolhi {escolhadopc} VOCE GANHOU!!!")
     elif escolhadopc == jogo[2]:
-        print(f"Voce escolheu {jogo[2]} e eu escolhi {escolhadopc} EMPATAMO DESGRACA")
+        print(f"Voce escolheu {jogo[2]} e eu escolhi {escolhadopc} EMPATAMOS")
     else:
-        print(f"Voce escolheu {jogo[2]} e eu escolhi {escolhadopc} PERDEU SEU TROUXA")
+        print(f"Voce escolheu {jogo[2]} e eu escolhi {escolhadopc} EU GANHEI!!!!!")
 
 
 
